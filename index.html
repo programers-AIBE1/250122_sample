@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>A고기집 - 대구 최고의 고기 맛집</title>
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Web Font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Favicon -->
+    <link
+      rel="icon"
+      href="https://via.placeholder.com/16x16"
+      type="image/png"
+    />
+    <!-- OG Tags -->
+    <meta property="og:title" content="A고기집 - 대구 최고의 고기 맛집" />
+    <meta
+      property="og:description"
+      content="최고급 한우와 신선한 재료로 정성껏 준비한 요리를 맛보세요."
+    />
+    <meta
+      property="og:image"
+      content="https://images.pexels.com/photos/958545/pexels-photo-958545.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+    />
+    <meta property="og:url" content="http://127.0.0.1:8080/0122/review/" />
+    <style>
+      body {
+        padding-top: 20px;
+        font-family: "Noto Sans KR", sans-serif;
+      }
+      .jumbotron {
+        background-color: #f8f9fa;
+        padding: 2rem 1rem;
+        margin-bottom: 2rem;
+        border-radius: 0.3rem;
+      }
+      .carousel-item img {
+        max-height: 400px;
+        object-fit: cover;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <!-- Navbar -->
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">A고기집</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">홈</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">메뉴</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">오시는 길</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Jumbotron -->
+      <div class="jumbotron">
+        <h1 class="display-4">대구 최고의 고기 맛집, A고기집!</h1>
+        <p class="lead">
+          최고급 한우와 신선한 재료로 정성껏 준비한 요리를 맛보세요.
+        </p>
+        <hr class="my-4" />
+        <p>A고기집은 알잘딱깔센 일잘러들이 꼼꼼하고 빠르게 준비해드립니다.</p>
+        <a class="btn btn-primary btn-lg" href="#" role="button">예약하기</a>
+      </div>
+
+      <!-- Carousel -->
+      <div
+        id="carouselExampleIndicators"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="https://images.pexels.com/photos/958545/pexels-photo-958545.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+              class="d-block w-100"
+              alt="Image 1"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="https://images.pexels.com/photos/907489/pexels-photo-907489.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+              class="d-block w-100"
+              alt="Image 2"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="https://images.pexels.com/photos/378570/pexels-photo-378570.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+              class="d-block w-100"
+              alt="Image 3"
+            />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <!-- Cards -->
+      <div class="row mt-4">
+        <div class="col-md-4">
+          <div class="card">
+            <img
+              src="https://images.pexels.com/photos/327158/pexels-photo-327158.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+              class="card-img-top"
+              alt="Card Image 1"
+            />
+            <div class="card-body">
+              <h5 class="card-title">최고의 맛</h5>
+              <p class="card-text">
+                엄선된 재료와 A고기집만의 비법으로 최고의 맛을 선사합니다.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img
+              src="https://images.pexels.com/photos/260922/pexels-photo-260922.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+              class="card-img-top"
+              alt="Card Image 2"
+            />
+            <div class="card-body">
+              <h5 class="card-title">아늑한 분위기</h5>
+              <p class="card-text">
+                편안하고 아늑한 분위기에서 식사를 즐기실 수 있습니다.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img
+              src="https://images.pexels.com/photos/842571/pexels-photo-842571.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+              class="card-img-top"
+              alt="Card Image 3"
+            />
+            <div class="card-body">
+              <h5 class="card-title">특별한 서비스</h5>
+              <p class="card-text">
+                A고기집만의 특별한 서비스로 감동을 선사합니다.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="exampleModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">A고기집 예약하기</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <p>예약 관련 내용은 여기에 작성하시면 됩니다.</p>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              닫기
+            </button>
+            <button type="button" class="btn btn-primary">예약하기</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Button trigger modal -->
+    <button
+      type="button"
+      class="btn btn-primary"
+      data-bs-toggle="modal"
+      data-bs-target="#exampleModal"
+    >
+      예약하기
+    </button>
+
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
